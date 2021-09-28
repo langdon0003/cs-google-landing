@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="icon" href="https://bit.ly/3a6NgB1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    />
+  </head>
+
+  <body>
+    <div class="nav">
+      <a class="nav-link" href="#">Gmail</a>
+      <a class="nav-link" href="#">Images</a>
+      <i class="fas fa-align-justify nav-link"></i>
+
+      <a class="google-avatar" href="#">
+        <img
+          src="https://lh3.googleusercontent.com/ogw/ADea4I7eLozqzAqd6Jlmqx5hiB_yZOXKrepjiK7Y9L9hng=s32-c-mo"
+          alt="avatar"
+        />
+      </a>
+    </div>
+    <section>
+      <div class="google-logo">
+        <img
+          src="img/google-logo.png"
+          alt="google-logo"
+          width="288px"
+          height="120px"
+        />
+      </div>
+      <br />
+
+      <div class="google-search-bar">
+        <div class="google-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" />
+        <div class="google-icon">
+          <i class="fas fa-microphone"></i>
+        </div>
+      </div>
+      <br />
+
+      <div class="google-group-button">
+        <button onclick="viewResults()">Google Search</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+      <br />
+
+      <div class="google-covid">
+        <a href="#">Join us in the fight against COVID-19</a>
+      </div>
+      <br />
+
+      <div class="google-lang">
+        Google offered in:
+        <a href="">Tiếng Việt</a>
+        <a href="">Français</a>
+        <a href="">中文</a>
+        <a href="">（繁體）</a>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-top">Vietnam</div>
+      <div class="footer-bottom">
+        <div class="footer-b-left">
+          <a href="">About</a>
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          <a href="">How Search works </a>
+        </div>
+        <div class="footer-b-right">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Setting</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function viewResults() {
+        window.location.href = "results.html";
+      }
+    </script>
+  </body>
+</html>
